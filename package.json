@@ -1,0 +1,7 @@
+{
+  "name": "@windchime-yk/renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate Shareable Config",
+  "private": true,
+  "license": "MIT"
+}

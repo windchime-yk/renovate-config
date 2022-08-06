@@ -1,0 +1,6 @@
+{
+  "extends": ["@windchime-yk"],
+  "major": {
+    "enabled": false
+  }
+}

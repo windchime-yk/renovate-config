@@ -1,0 +1,20 @@
+{
+  "schedule": ["on friday"],
+  "timezone": "Asia/Tokyo",
+  "ignorePaths": ["**/node_modules/**"],
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": true,
+    "groupName": "Minor updates",
+    "stabilityDays": 7,
+    "prCreation": "not-pending"
+  },
+  "patch": {
+    "automerge": true,
+    "groupName": "Patch updates",
+    "stabilityDays": 7,
+    "prCreation": "not-pending"
+  }
+}
