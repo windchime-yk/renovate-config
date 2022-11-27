@@ -1,5 +1,6 @@
 {
-  "extends": ["@windchime-yk"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>windchime-yk/renovate-config"],
   "major": {
     "enabled": false
   }
