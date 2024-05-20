@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>Omochice/renovate-config:deno"],
+  "schedule": ["on friday"],
+  "timezone": "Asia/Tokyo",
+  "major": {
+    "enabled": false
+  },
+  "minor": {
+    "automerge": true,
+    "groupName": "Minor updates",
+    "stabilityDays": 14,
+    "prCreation": "not-pending"
+  },
+  "patch": {
+    "automerge": true,
+    "groupName": "Patch updates",
+    "stabilityDays": 14,
+    "prCreation": "not-pending"
+  }
+}
